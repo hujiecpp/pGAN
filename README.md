@@ -7,37 +7,27 @@ This page contains the codes for pGAN. If you have any problem, please feel free
 # Prerequisites
 
 * Python (2.7 or later)
-
 * numpy
-
 * scipy
-
 * NVIDIA GPU + CUDA 8.0 + CuDNN v5.1
-
 * pyTorch 0.3
 
 # Getting Priors
 
 * PortraitFCN [1]
-
 * P-Net [2]
 
 # Training & Test
 
 After preparing the priors and training/test images:
-
 ```
 ./run.sh
 ```
-
 The example of training phase:
-
 ```
 python train.py --dataset CUHKStudent --nEpochs 20 --cuda
 ```
-
 The example of test phase:
-
 ```
 python test.py --train_data CUHKStudent --test_data XM2VTS --G1_model G_1_model_epoch_20.pth --G2_model G_2_model_epoch_20.pth --my_layer_model my_layer_model_epoch_20.pth --cuda
 ```
