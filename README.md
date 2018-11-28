@@ -2,7 +2,7 @@ This is the project page associating to our work on Robust Face Sketch Synthesis
 
 Zhang, S., Ji, R., Hu, J., Gao, Y., Lin, C. W., "<a href=https://www.ijcai.org/proceedings/2018/0162.pdf>Robust Face Sketch Synthesis via Generative Adversarial Fusion of Priors and Parametric Sigmoid.</a>" In IJCAI, 2018.
 
-This page contains the codes for out model "pGAN". If you have any problem, please feel free to contact us.
+This page contains the codes for our model "pGAN". If you have any problem, please feel free to contact us.
 
 # Prerequisites
 
