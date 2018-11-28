@@ -36,6 +36,6 @@ python test.py --train_data CUHKStudent --test_data XM2VTS --G1_model G_1_model_
 
 [1] Shen, X., Hertzmann, A., Jia, J., Paris, S., Price, B., Shechtman, E., Sachs, I., "Automatic portrait segmentation for image stylization." In Computer Graphics Forum, 2016.
 
-[2] Liu, S., Yang, J., Huang, C., Yang, M. H., Multi-objective convolutional learning for face labeling. In CVPR, 2015.
+[2] Liu, S., Yang, J., Huang, C., Yang, M. H., "Multi-objective convolutional learning for face labeling." In CVPR, 2015.
 
 [3] Zhang, S., Ji, R., Hu, J., Gao, Y., Lin, C. W., "Robust Face Sketch Synthesis via Generative Adversarial Fusion of Priors and Parametric Sigmoid." In IJCAI, 2018.
