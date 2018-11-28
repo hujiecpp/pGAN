@@ -19,15 +19,15 @@ This page contains the codes for our model "pGAN". If you have any problem, plea
 
 # Training & Test
 
-After preparing the priors and training/test images:
+After preparing the priors and training/test images, run:
 ```
 ./run.sh
 ```
-The example of training phase:
+The example of runing the training phase:
 ```
 python train.py --dataset CUHKStudent --nEpochs 20 --cuda
 ```
-The example of test phase:
+The example of runing the test phase:
 ```
 python test.py --train_data CUHKStudent --test_data XM2VTS --G1_model G_1_model_epoch_20.pth --G2_model G_2_model_epoch_20.pth --my_layer_model my_layer_model_epoch_20.pth --cuda
 ```
